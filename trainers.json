@@ -1,0 +1,16 @@
+[
+  {
+    "initials": "MT",
+    "photo": "",
+    "name": "Trainer Name",
+    "role": "MikroTik Certified Trainer",
+    "bio": "Add a short bio: certifications held, years of field experience, and courses handled at the Academy."
+  },
+  {
+    "initials": "MT",
+    "photo": "",
+    "name": "Trainer Name",
+    "role": "Lab Coordinator",
+    "bio": "Add a short bio: role in the Academy, faculty department, and areas of specialization."
+  }
+]
