@@ -19,7 +19,7 @@
   <div class="header-inner">
     <a class="brand" href="#top">
       <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 40 40" width="36" height="36">
+        <img src="assets/mikrotik-logo.jpg" alt="MikroTik logo" width="36" height="36">
           <rect x="2" y="2" width="36" height="36" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
           <circle cx="12" cy="20" r="2.6" fill="currentColor"/>
           <circle cx="28" cy="10" r="2.6" fill="currentColor"/>
@@ -86,30 +86,10 @@
       </dl>
     </div>
 
-    <!-- signature element (TRIAL B): hero photo slideshow -->
-    <div class="hero-visual" aria-hidden="true">
-      <div class="hero-slideshow">
-        <img src="assets/gallery/mikrotik1.jpg" alt="">
-        <img src="assets/gallery/mikrotik2.jpg" alt="">
-        <img src="assets/gallery/mikrotik3.jpg" alt="">
-        <img src="assets/gallery/mikrotik4.jpg" alt="">
-        <img src="assets/gallery/mikrotik5.jpg" alt="">
-        <img src="assets/gallery/mikrotik6.jpg" alt="">
-        <img src="assets/gallery/mikrotik7.jpg" alt="">
-        <img src="assets/gallery/mikrotik8.jpg" alt="">
-        <img src="assets/gallery/mikrotik9.jpg" alt="">
-        <img src="assets/gallery/mikrotik10.jpg" alt="">
-        <img src="assets/gallery/mikrotik11.jpg" alt="">
-        <img src="assets/gallery/mikrotik12.jpg" alt="">
-        <img src="assets/gallery/mikrotik13.jpg" alt="">
-        <img src="assets/gallery/mikrotik14.jpg" alt="">
-        <img src="assets/gallery/mikrotik15.jpg" alt="">
-      </div>
-    </div>
-
-    <!-- TRIAL A (previous): animated topology / packet route
+    <!-- signature element: animated topology / packet route -->
     <div class="hero-visual" aria-hidden="true">
       <svg id="topology" viewBox="0 0 520 460" xmlns="http://www.w3.org/2000/svg">
+        <!-- links -->
         <g class="links" stroke="currentColor" stroke-width="1.5" fill="none">
           <path id="path-a" d="M80 380 L260 260" />
           <path id="path-b" d="M260 260 L120 120" />
@@ -118,6 +98,7 @@
           <path id="path-e" d="M120 120 L60 60" />
           <path id="path-f" d="M420 120 L470 70" />
         </g>
+        <!-- nodes -->
         <g class="nodes">
           <circle class="node node-core" cx="260" cy="260" r="10"/>
           <circle class="node" cx="80" cy="380" r="6"/>
@@ -127,6 +108,7 @@
           <circle class="node" cx="60" cy="60" r="5"/>
           <circle class="node" cx="470" cy="70" r="5"/>
         </g>
+        <!-- traveling packets -->
         <circle class="packet" r="3.5">
           <animateMotion dur="3.2s" repeatCount="indefinite" rotate="auto">
             <mpath href="#path-a"/>
@@ -150,7 +132,6 @@
       </svg>
       <p class="console-tag">admin@spcc-academy&gt; <span class="cursor">_</span></p>
     </div>
-    -->
   </section>
 
   <!-- ============ MARQUEE / PARTNER STRIP ============ -->
@@ -180,25 +161,43 @@
 
     <div class="marquee-wrap">
       <div class="marquee-track">
-        <figure class="marquee-photo"><span class="photo-placeholder">Add photo<br>lab-1.jpg</span></figure>
-        <figure class="marquee-photo"><span class="photo-placeholder">Add photo<br>bootcamp-1.jpg</span></figure>
-        <figure class="marquee-photo"><span class="photo-placeholder">Add photo<br>bootcamp-2.jpg</span></figure>
-        <figure class="marquee-photo"><span class="photo-placeholder">Add photo<br>lab-2.jpg</span></figure>
-        <figure class="marquee-photo"><span class="photo-placeholder">Add photo<br>bootcamp-3.jpg</span></figure>
-        <figure class="marquee-photo"><span class="photo-placeholder">Add photo<br>trainers-1.jpg</span></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik1.jpg" alt="mikrotik1.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik2.jpg" alt="mikrotik2.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik3.jpg" alt="mikrotik3.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik4.jpg" alt="mikrotik4.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik5.jpg" alt="mikrotik5.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik6.jpg" alt="mikrotik6.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik7.jpg" alt="mikrotik7.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik8.jpg" alt="mikrotik8.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik9.jpg" alt="mikrotik9.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik10.jpg" alt="mikrotik10.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik11.jpg" alt="mikrotik11.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik12.jpg" alt="mikrotik12.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik13.jpg" alt="mikrotik13.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik14.jpg" alt="mikrotik14.jpg"></figure>
+        <figure class="marquee-photo"><img src="assets/gallery/mikrotik15.jpg" alt="mikrotik15.jpg"></figure>
         <!-- duplicated set below for a seamless loop -- keep in sync with the row above -->
-        <figure class="marquee-photo" aria-hidden="true"><span class="photo-placeholder">Add photo<br>lab-1.jpg</span></figure>
-        <figure class="marquee-photo" aria-hidden="true"><span class="photo-placeholder">Add photo<br>bootcamp-1.jpg</span></figure>
-        <figure class="marquee-photo" aria-hidden="true"><span class="photo-placeholder">Add photo<br>bootcamp-2.jpg</span></figure>
-        <figure class="marquee-photo" aria-hidden="true"><span class="photo-placeholder">Add photo<br>lab-2.jpg</span></figure>
-        <figure class="marquee-photo" aria-hidden="true"><span class="photo-placeholder">Add photo<br>bootcamp-3.jpg</span></figure>
-        <figure class="marquee-photo" aria-hidden="true"><span class="photo-placeholder">Add photo<br>trainers-1.jpg</span></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik1.jpg" alt="mikrotik1.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik2.jpg" alt="mikrotik2.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik3.jpg" alt="mikrotik3.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik4.jpg" alt="mikrotik4.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik5.jpg" alt="mikrotik5.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik6.jpg" alt="mikrotik6.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik7.jpg" alt="mikrotik7.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik8.jpg" alt="mikrotik8.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik9.jpg" alt="mikrotik9.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik10.jpg" alt="mikrotik10.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik11.jpg" alt="mikrotik11.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik12.jpg" alt="mikrotik12.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik13.jpg" alt="mikrotik13.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik14.jpg" alt="mikrotik14.jpg"></figure>
+        <figure class="marquee-photo" aria-hidden="true"><img src="assets/gallery/mikrotik15.jpg" alt="mikrotik15.jpg"></figure>
       </div>
     </div>
   </section>
 
   <!-- ============ ABOUT ============ -->
-  <section class="section section-tint" id="about">
+  <section class="section" id="about">
     <div class="section-inner about-grid">
       <div class="about-copy">
         <p class="eyebrow">About the Academy</p>
@@ -236,7 +235,7 @@
   </section>
 
   <!-- ============ COURSES / CERTIFICATION TRACKS ============ -->
-  <section class="section" id="courses">
+  <section class="section section-tint" id="courses">
     <div class="section-inner">
       <p class="eyebrow">Certification Tracks</p>
       <h2>Choose your route through RouterOS.</h2>
@@ -274,7 +273,7 @@
   </section>
 
   <!-- ============ TRAINERS ============ -->
-  <section class="section section-tint" id="trainers">
+  <section class="section" id="trainers">
     <div class="section-inner">
       <p class="eyebrow">Meet the Team</p>
       <h2>Certified trainers, campus faculty.</h2>
@@ -400,8 +399,6 @@
           <select name="track">
             <option>MTCNA</option>
             <option>MTCRE</option>
-            <option>MTCWE</option>
-            <option>MTCSE</option>
             <option>Not sure yet</option>
           </select>
         </label>
@@ -422,7 +419,7 @@
   <div class="footer-inner">
     <div class="footer-brand">
       <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 40 40" width="30" height="30">
+        <img src="assets/mikrotik-logo.jpg" alt="MikroTik logo" width="36" height="36">
           <rect x="2" y="2" width="36" height="36" rx="8" fill="none" stroke="currentColor" stroke-width="2"/>
           <circle cx="12" cy="20" r="2.6" fill="currentColor"/>
           <circle cx="28" cy="10" r="2.6" fill="currentColor"/>
